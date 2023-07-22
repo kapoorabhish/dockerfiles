@@ -25,6 +25,7 @@ ADD run.sh run.sh
 ADD backup.sh backup.sh
 ADD apply_bucket_lifecycle.sh apply_bucket_lifecycle.sh
 ADD delete_bucket_lifecycle.sh delete_bucket_lifecycle.sh
+ADD backup_lifecycle_policy.json backup_lifecycle_policy.json
 
 ENTRYPOINT []
 CMD ["sh", "run.sh"]
